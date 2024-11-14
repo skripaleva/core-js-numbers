@@ -624,7 +624,6 @@ function getCountOfOddNumbers(number) {
   let count = 0;
   for (let i = 1; i <= Math.abs(number); i += 2) {
     count += 1;
-    console.log(i, count);
   }
   return count || 0;
 }
